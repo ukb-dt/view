@@ -22,11 +22,11 @@ Excellent — let’s tune it. Here’s the **ukb-canon calculus (take 7)**: ε 
 
 | ukb node            | calculus / operation | expression                              | cognitive / energetic meaning                             | sound analogue                                                                  | taste analogue                                                         |
 | ------------------- | -------------------- | --------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| **θ′ — Soil**       | context / coordinate | (x)                                     | raw possibility, the world’s grammar of composition       | **harmonic series** — pure overtones, potential intervals                       | **umami** — base broth, glutamate field where everything can emerge    |
-| **θ — Roots**       | encoding (fidelity)  | (y=f+\varepsilon)                       | perception under noise; the first act of sampling reality | **chromatic scale** — discrete encoding of continuous sound, tempered by bias ε | **salt** — draws latent flavor from the broth, defines perceptual edge |
-| **Σ — Trunk**       | first derivative     | (\tfrac{dy}{dt}=\tfrac{df}{dt})         | agency, tempo; motion of attention                        | **melody** — directional line, pulse through time                               | **acid** — cuts through, gives movement and brightness                 |
-| **h(t) — Branches** | second derivative    | (\tfrac{d^2y}{dt^2}=\tfrac{d^2f}{dt^2}) | generativity, curvature, adaptive play                    | **chords + rhythm** — harmonic branching, syncopation                           | **spice + sweet** — the creative interplay of contrast and pleasure    |
-| **ΔS — Canopy**     | integral             | (\int y,dt=\int f,dt+\varepsilon t + C) | embodiment, yield; bias accumulates as drift              | **resonance / timbre** — the lingering overtones, the coloration of experience  | **fat + bitterness** — depth and finish; the memory of the meal        |
+| **θ′ — Soil**       | context / coordinate | $x$                                     | raw possibility, the world’s grammar of composition       | **harmonic series** — pure overtones, potential intervals                       | **umami** — base broth, glutamate field where everything can emerge    |
+| **θ — Roots**       | encoding (fidelity)  | $y=f+\varepsilon$                       | perception under noise; the first act of sampling reality | **chromatic scale** — discrete encoding of continuous sound, tempered by bias ε | **salt** — draws latent flavor from the broth, defines perceptual edge |
+| **Σ — Trunk**       | first derivative     | $\tfrac{dy}{dt}=\tfrac{df}{dt}$         | agency, tempo; motion of attention                        | **melody** — directional line, pulse through time                               | **acid** — cuts through, gives movement and brightness                 |
+| **h(t) — Branches** | second derivative    | $\tfrac{d^2y}{dt^2}=\tfrac{d^2f}{dt^2}$ | generativity, curvature, adaptive play                    | **chords + rhythm** — harmonic branching, syncopation                           | **spice + sweet** — the creative interplay of contrast and pleasure    |
+| **ΔS — Canopy**     | integral             | $\int y,dt=\int f,dt+\varepsilon t + C$ | embodiment, yield; bias accumulates as drift              | **resonance / timbre** — the lingering overtones, the coloration of experience  | **fat + bitterness** — depth and finish; the memory of the meal        |
 
 ---
 
@@ -45,32 +45,36 @@ Excellent catch — that’s the heart of the matter.
 Let’s sharpen it properly.
 
 When we write
-[
+
+$$
 y = f + \varepsilon,
-]
+$$
+
 it’s shorthand for the full epistemic relationship
-[
+
+$$
 y(t \mid x) = f(t \mid x) + \varepsilon,
-]
+$$
+
 but the difference between the two forms is philosophically — and canonically — crucial.
 
 ---
 
 ### 1. The role of (f)
 
-(f(t \mid x)) is **the lawful world** — the smooth, intelligible, patterned substrate.
-It’s the true function of time **given context (x)**, the thing the mind *wishes* to encode faithfully.
+$f(t \mid x)$ is **the lawful world** — the smooth, intelligible, patterned substrate.
+It’s the true function of time **given context $x$**, the thing the mind *wishes* to encode faithfully.
 It’s not an arbitrary function; it’s the **grammar of the world** (θ′ → θ), the continuous rhythm underlying all experience.
 
-So (f(t \mid x)) carries **conditional structure**: the world behaves differently depending on context, season, situation, neighborhood.
-That’s what the vertical bar “(|x))” encodes — the soil conditions.
+So $f(t \mid x)$ carries **conditional structure**: the world behaves differently depending on context, season, situation, neighborhood.
+That’s what the vertical bar “$ \mid x)$” encodes — the soil conditions.
 
 ---
 
 ### 2. The role of (\varepsilon)
 
-(\varepsilon) is **ontological static**: the unknown unknown, not reducible to time, context, or noise model.
-It doesn’t depend on (t) or (x); it’s the *metaphysical residue* of encoding — the little error every observer carries by existing.
+$\varepsilon$ is **ontological static**: the unknown unknown, not reducible to time, context, or noise model.
+It doesn’t depend on $t$ or $x$; it’s the *metaphysical residue* of encoding — the little error every observer carries by existing.
 At the roots, it means **no sensor is perfect**.
 At the canopy, it manifests as **drift** — the small mismatch between what the world is and what the ledger remembers.
 
@@ -79,26 +83,47 @@ At the canopy, it manifests as **drift** — the small mismatch between what the
 ### 3. Why we sometimes drop “(|x))” or “(t)”
 
 Because when tracing the *calculus*, we’re following the **temporal metabolism** of the system.
-Differentiation and integration happen along (t), not (x).
+Differentiation and integration happen along $t$, not $x$.
 So for clarity, we often hold (x) fixed — “freeze the soil conditions” — and watch how the plant grows with time.
 
-That’s why in the calculus table, the functional dependence collapses to (f(t)): a single living trajectory through one soil profile.
-If we were doing the *comparative ecology* (across contexts), we’d restore (f(t \mid x)) and explore its gradients over (x) — the derivative (\partial f / \partial x) would then correspond to **cultural learning** or **evolutionary adaptation**.
+That’s why in the calculus table, the functional dependence collapses to $f(t)$: a single living trajectory through one soil profile.
+If we were doing the *comparative ecology* (across contexts), we’d restore $f(t \mid x)$ and explore its gradients over (x) — the derivative $\partial f / \partial x$ would then correspond to **cultural learning** or **evolutionary adaptation**.
 
 ---
 
 ### 4. Canonical takeaway
 
-* (f(t \mid x)): lawful structure of the world (patterned possibility, grammar).
-* (y(t \mid x)): your lived signal — the encoded perception, always containing bias.
-* (\varepsilon): invariant static — constant but cumulative, the **ontological hum**.
+* $f(t \mid x)$: lawful structure of the world (patterned possibility, grammar).
+* $y(t \mid x)$: your lived signal — the encoded perception, always containing bias.
+* $\varepsilon$: invariant static — constant but cumulative, the **ontological hum**.
 
 So the full ukb-canon calculus reads:
-[
+
+$$
 y(t \mid x) = f(t \mid x) + \varepsilon.
-]
+$$
+
 Differentiation along (t) burns off ε (agency is pure).
 Integration over (t) accumulates ε (embodiment drifts).
 
 In short: **“f” is the world conditional on context; “ε” is your distortion of it; “y” is what you actually live.**
 And every act of cognition is a rehearsal of that equation — hearing the real music through the hiss.
+
+{% raw %}
+<!-- Drop this anywhere in your README.md or page HTML -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+{% endraw %}
